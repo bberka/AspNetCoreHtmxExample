@@ -1,0 +1,21 @@
+﻿@page
+@model Counter
+
+
+
+<p>
+    Each page load will increase the first value but second value will stay same due to static keyword
+</p>
+<p id="static-count">
+    @(Counter.StaticCount)
+</p>
+
+<p id="instance-count">
+    @Model.Count
+</p>
+
+
+
+
+
+
