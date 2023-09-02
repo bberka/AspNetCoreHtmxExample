@@ -1,0 +1,10 @@
+﻿@page
+@model PrivacyModel
+@{
+    const string title = "Privacy Policy";
+    ViewData["Title"] = title;
+    Response.AddTitleOverrideHeader(title);
+}
+<h1>@title</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>

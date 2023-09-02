@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{2F79CC6E-CBFC-4F5B-B93F-B8795E071316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreHtmxExample.RazorPages", "AspNetCoreHtmxExample.RazorPages\AspNetCoreHtmxExample.RazorPages.csproj", "{2F79CC6E-CBFC-4F5B-B93F-B8795E071316}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

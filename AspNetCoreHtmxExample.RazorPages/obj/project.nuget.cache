@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "H4s/717enLsOzs4neUF+yUafkX+S8H7ljGk+Js70WoGc7ooxL+Jz4NiCAPuF4boMBN0JxsfctI5rygatf/3fsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kkass\\source\\repos\\HTMX.ASPNETCORE_TEST\\AspNetCoreHtmxExample.RazorPages\\AspNetCoreHtmxExample.RazorPages.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kkass\\.nuget\\packages\\htmx\\1.3.1\\htmx.1.3.1.nupkg.sha512",
+    "C:\\Users\\kkass\\.nuget\\packages\\htmx.taghelpers\\1.3.1\\htmx.taghelpers.1.3.1.nupkg.sha512",
+    "C:\\Users\\kkass\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\kkass\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\kkass\\.nuget\\packages\\system.text.json\\6.0.5\\system.text.json.6.0.5.nupkg.sha512",
+    "C:\\Users\\kkass\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.8\\microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\kkass\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.8\\microsoft.windowsdesktop.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\kkass\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.8\\microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\kkass\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.8\\microsoft.netcore.app.host.win-x64.7.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
