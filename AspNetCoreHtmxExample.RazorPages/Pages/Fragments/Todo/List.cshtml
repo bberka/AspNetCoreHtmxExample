@@ -1,0 +1,37 @@
+﻿@page
+@using AspNetCoreHtmxExample.RazorPages.Model
+@model AspNetCoreHtmxExample.RazorPages.Pages.Fragments.Todo.List
+
+
+<ul class="list-group">
+    @foreach (var item in TodoHolder.Todos) {
+        var completed = item.IsComplete ? "disabled" : "";
+        <li class="list-group-item">
+            <div class="row">
+                <div class="d-flex justify-content-between ">
+                    <div class="form-label @completed">
+                        @item.Title
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="complete-button">
+                                <form hx-put="/fragments/todo/list" hx-target="#todo-list" hx-swap="innerHTML">
+                                    <input name="name" class="d-none" value="@item.Title"/>
+                                    <button type="submit" class="btn btn-primary @completed">Complete</button>
+                                    @Html.AntiForgeryToken()
+                                </form>
+                            </div>
+                            <div class="delete-button">
+                                <form hx-delete="/fragments/todo/list" hx-target="#todo-list" hx-swap="innerHTML">
+                                    <input name="name" class="d-none" value="@item.Title"/>
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                    @Html.AntiForgeryToken()
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    }
+</ul>
