@@ -1,4 +1,5 @@
 ﻿using AspNetCoreHtmxExample.RazorPages.Model;
+using Htmx;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -32,6 +33,8 @@ public class List : PageModel
 
   public void OnDelete() {
     if(string.IsNullOrEmpty(Name)) return;
+    Response.Headers["hx-vals"] = "{'disabled': false}";
+    Thread.Sleep(2000);
     var todo = TodoHolder.Todos.FirstOrDefault(t => t.Title == Name);
     if (todo != null) {
       TodoHolder.Todos.Remove(todo);

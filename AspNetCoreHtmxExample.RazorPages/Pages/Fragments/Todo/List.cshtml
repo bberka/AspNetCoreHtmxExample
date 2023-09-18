@@ -22,7 +22,7 @@
                                 </form>
                             </div>
                             <div class="delete-button">
-                                <form hx-delete="/fragments/todo/list" hx-target="#todo-list" hx-swap="innerHTML">
+                                <form hx-delete="/fragments/todo/list" hx-target="#todo-list" hx-swap="innerHTML" hx-vals="{'disabled': true}">
                                     <input name="name" class="d-none" value="@item.Title"/>
                                     <button type="submit" class="btn btn-danger">Delete</button>
                                     @Html.AntiForgeryToken()
